@@ -1,7 +1,7 @@
 # Graphic Tool
 > If you want English README.md, Click [here](https://github.com/diayoak/Graphic-Tool/blob/master/README_EN.md).
 
-Intrroduction
+Introduction
 =============
 Graphic Tool은 많은 그래픽 디자이너 분들이 사용하시는 PhotoShop의 Web 버전입니다.
 Photoshop은 유료로 사용해야 하는 단점이 있어, 이용에 부담감을 줄이기 위해 제작하게 되었습니다.
