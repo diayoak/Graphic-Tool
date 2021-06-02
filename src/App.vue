@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
-	<style>
-		textarea{
-			width: 10000px;
-			height: 10000px;
-			-webkit-appearance: none;
-			background: none;
-		}
-	</style>
-</head>
-<body>
-	<div id="workshop">
+<template>
+  <div id="workshop">
 		<div class="create-tool-box">
 			<div class="tool-item-group">
 				<div class="tool-title">도구</div>
@@ -130,18 +115,29 @@
 			</div>
 		</div>
 	</div>
+</template>
 
-	<script src="js/lib.js"></script>
-	
-	<script src="js/Tool.js"></script>
-	<script src="js/BrushTool.js"></script>
-	<script src="js/PenTool.js"></script>
-	<script src="js/SelectTool.js"></script>
-	<script src="js/PolygonTool.js"></script>
-	<script src="js/TextTool.js"></script>
-	<script src="js/EditPointer.js"></script>
+<script>
+// import '@/assets/js/lib.js'
+// import '@/assets/css/style.css'
+// import '@/assets/js/BrushTool.js'
+// import '@/assets/js/PenTool.js'
+// import '@/assets/js/SelectTool.js'
+// import '@/assets/js/PolygonTool.js'
+// import '@/assets/js/TextTool.js'
+// import '@/assets/js/EditPointer.js'
+// import '@/assets/js/app.js'
 
-	<script src="js/app.js"></script>
-	<!-- <script src="js/ColorSelector.js"></script> -->
-</body>
-</html>
+export default {
+  name: 'App',
+  created () {
+
+  }
+}
+</script>
+
+<style lang="scss">
+@import './assets/css/common.css';
+@import './assets/css/style.css';
+
+</style>
